@@ -1,12 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/menlo');
 
 :root {
-  /* Tech Noir Base Palette - more vibrant */
-  --background: #1a2035;         /* Richer steel blue-grey */
-  --secondary-background: #151a2b;/* Deeper blue-grey */
-  --foreground: #c4d3e8;         /* Brighter blue-tinted silver */
-  --current-line: #2d375a;       /* Enhanced steel blue */
-  --comment: #5d7290;            /* Brighter dusty blue */
+  /* Tech Noir Base Palette - muted version */
+  --background: #1a1f2d;         /* Deep steel blue-grey */
+  --secondary-background: #141822;/* Darker blue-grey */
+  --foreground: #a7b6c7;         /* Muted blue-tinted silver */
+  --current-line: #2a3242;       /* Muted steel blue */
+  --comment: #4a5a73;            /* Dusty blue */
   
   /* Accent colors - more saturated */
   --red: #b84955;               /* Emergency red */
@@ -26,7 +26,7 @@
   --item-cell-selected-background-color: var(--secondary-background);
 
   /* Accent Tints */
-  --sn-stylekit-accessory-tint-color-1: var(--cyan);
+  --sn-stylekit-accessory-tint-color-1: var(--orange);
   --sn-stylekit-accessory-tint-color-2: var(--pink);
   --sn-stylekit-accessory-tint-color-3: var(--purple);
   --sn-stylekit-accessory-tint-color-4: var(--cyan);
