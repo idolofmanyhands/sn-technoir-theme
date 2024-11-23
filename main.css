@@ -2,29 +2,29 @@
 
 :root {
   /* Tech Noir Base Palette - muted version */
-  --background: #3E363F;         /* Deep steel blue-grey */
-  --secondary-background: #24222C;/* Darker blue-grey */
-  --foreground: #D2D4D5;         /* Muted blue-tinted silver */
+  --background: #1a1b23;         /* Deep steel blue-grey */
+  --secondary-background: #0b0d12;/* Darker blue-grey */
+  --foreground: #AFB2B6;         /* Muted blue-tinted silver */
   --current-line: #2a3242;       /* Muted steel blue */
   --comment: #4a5a73;            /* Dusty blue */
   
   /* Accent colors - more saturated */
-  --red: #A74450;               /* Emergency red */
-  --cyan: #4B758A;              /* Bright phosphor cyan */
+  --red: #d83f52;               /* Emergency red */
+  --cyan: #6D8BAF;              /* Bright phosphor cyan */
   --blue: #264B64;
   --purple: #3D3B4A;            /* Neon purple */
 
-  --orange: #bf7154;            /* Burnished copper */
+  --orange: #e9a874;            /* Burnished copper */
   --green: #49c5b7;             /* Phosphor terminal green */
   --pink: #ff6b97;              /* Electric pink */
   --yellow: #dfb06a;            /* Rich amber terminal */
   
   /* UI Elements */
-  --bar-color: #202943;
+  --bar-color: var(--secondary-background);
   --darker-background: #242331;
   --darker-background-border: #202943;
   --popover-background-color: var(--secondary-background);
-  --items-column-items-background-color: #1e2942;
+  --items-column-items-background-color: #0d0d11;
   --item-cell-selected-background-color: var(--secondary-background);
 
   /* Accent Tints */
@@ -45,7 +45,7 @@
   
   /* Status Colors */
   --sn-stylekit-shadow-color: var(--comment);
-  --sn-stylekit-info-color: var(--cyan);
+  --sn-stylekit-info-color: var(--red);
   --sn-stylekit-info-contrast-color: var(--background);
   --sn-stylekit-neutral-color: var(--purple);
   --sn-stylekit-neutral-contrast-color: var(--foreground);
