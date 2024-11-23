@@ -1,4 +1,12 @@
-@import url('https://fonts.cdnfonts.com/css/menlo');
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+/* Specify in CSS */
+code { font-family: 'Fira Code', monospace; }
+
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
+}
+
 
 :root {
   /* Tech Noir Base Palette - muted version */
@@ -79,7 +87,7 @@
   
   /* Typography */
   --sn-stylekit-paragraph-text-color: var(--foreground);
-  --sn-stylekit-monospace-font: 'Menlo', monospace;
+  --sn-stylekit-monospace-font: 'Fira Code', monospace;
   
   /* Desktop Title Bar */
   --sn-desktop-titlebar-bg-color: var(--background);
