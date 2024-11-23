@@ -1,0 +1,101 @@
+@import url('https://fonts.cdnfonts.com/css/menlo');
+
+:root {
+  /* Tech Noir Base Palette - muted version */
+  --background: #1a1f2d;         /* Deep steel blue-grey */
+  --secondary-background: #141822;/* Darker blue-grey */
+  --foreground: #a7b6c7;         /* Muted blue-tinted silver */
+  --current-line: #2a3242;       /* Muted steel blue */
+  --comment: #4a5a73;            /* Dusty blue */
+  
+  /* Accent colors - deliberately desaturated */
+  --red: #8f404f;               /* Muted emergency red */
+  --orange: #7d5a47;            /* Burnt copper */
+  --green: #456b6a;             /* Military terminal green */
+  --pink: #845766;              /* Muted neon */
+  --purple: #584d66;            /* Twilight purple */
+  --cyan: #3d6466;              /* CRT phosphor cyan */
+  --yellow: #7d6b4a;            /* Amber terminal */
+  
+  /* UI Elements */
+  --bar-color: #1d2433;
+  --darker-background: #12151e;
+  --darker-background-border: #1d2433;
+  --popover-background-color: var(--secondary-background);
+  --items-column-items-background-color: #1e2534;
+  --item-cell-selected-background-color: var(--secondary-background);
+
+  /* Accent Tints */
+  --sn-stylekit-accessory-tint-color-1: var(--cyan);
+  --sn-stylekit-accessory-tint-color-2: var(--pink);
+  --sn-stylekit-accessory-tint-color-3: var(--purple);
+  --sn-stylekit-accessory-tint-color-4: var(--cyan);
+  --sn-stylekit-accessory-tint-color-5: var(--green);
+  --sn-stylekit-accessory-tint-color-6: var(--yellow);
+  
+  /* Component Colors */
+  --highlight-color: #4a5a73;
+  --sn-component-foreground-color: var(--foreground);
+  --sn-component-background-color: var(--background);
+  --sn-component-foreground-highlight-color: var(--highlight-color);
+  --sn-component-outer-border-color: var(--comment);
+  --sn-component-inner-border-color: var(--foreground);
+  
+  /* Status Colors */
+  --sn-stylekit-shadow-color: var(--comment);
+  --sn-stylekit-info-color: var(--cyan);
+  --sn-stylekit-info-contrast-color: var(--background);
+  --sn-stylekit-neutral-color: var(--purple);
+  --sn-stylekit-neutral-contrast-color: var(--foreground);
+  --sn-stylekit-success-color: var(--green);
+  --sn-stylekit-success-contrast-color: var(--background);
+  --sn-stylekit-warning-color: var(--orange);
+  --sn-stylekit-warning-contrast-color: var(--background);
+  --sn-stylekit-danger-color: var(--red);
+  --sn-stylekit-danger-contrast-color: var(--foreground);
+  
+  /* Editor Colors */
+  --sn-stylekit-editor-background-color: var(--background);
+  --sn-stylekit-editor-foreground-color: var(--foreground);
+  --sn-stylekit-background-color: var(--background);
+  --sn-stylekit-foreground-color: var(--foreground);
+  --sn-stylekit-border-color: var(--darker-background-border);
+  
+  /* Contrast Colors */
+  --sn-stylekit-contrast-background-color: var(--bar-color);
+  --sn-stylekit-contrast-foreground-color: var(--foreground);
+  --sn-stylekit-contrast-border-color: var(--comment);
+  
+  /* Secondary Colors */
+  --sn-stylekit-secondary-background-color: var(--secondary-background);
+  --sn-stylekit-secondary-foreground-color: var(--foreground);
+  --sn-stylekit-secondary-border-color: var(--darker-background-border);
+  --sn-stylekit-secondary-contrast-background-color: var(--current-line);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--foreground);
+  --sn-stylekit-secondary-contrast-border-color: var(--foreground);
+  
+  /* Typography */
+  --sn-stylekit-paragraph-text-color: var(--foreground);
+  --sn-stylekit-monospace-font: 'Menlo', monospace;
+  
+  /* Desktop Title Bar */
+  --sn-desktop-titlebar-bg-color: var(--background);
+  --sn-desktop-titlebar-border-color: var(--comment);
+  --sn-desktop-titlebar-ui-color: var(--foreground);
+  --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+  
+  /* Scrollbar */
+  --sn-stylekit-scrollbar-track-border-color: var(--comment);
+  --sn-stylekit-scrollbar-thumb-color: var(--cyan);
+  
+  /* Passive Colors */
+  --sn-stylekit-grey-5: var(--highlight-color);
+  --sn-stylekit-grey-4-opacity-variant: var(--current-line);
+  --sn-stylekit-passive-color-4: #161b25;
+  --sn-stylekit-passive-color-4-opacity-variant: #1a1f2d3d;
+  --sn-stylekit-passive-color-3: #2a3242;
+  --sn-stylekit-passive-color-5: #12151e;
+  
+  /* Navigation */
+  --navigation-item-selected-background-color: var(--sn-stylekit-secondary-contrast-background-color);
+}

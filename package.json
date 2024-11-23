@@ -1,0 +1,11 @@
+{
+  "name": "sn-technoir-theme",
+  "version": "0.0.1",
+  "sn": {
+      "main": "main.css"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/idolofmanyhands/sn-technoir-theme.git"
+  }
+}
