@@ -2,29 +2,30 @@
 
 :root {
   /* Tech Noir Base Palette - muted version */
-  --background: #1a1b23;         /* Deep steel blue-grey */
-  --secondary-background: #0b0d12;/* Darker blue-grey */
-  --foreground: #AFB2B6;         /* Muted blue-tinted silver */
-  --current-line: #2a3242;       /* Muted steel blue */
-  --comment: #4a5a73;            /* Dusty blue */
+  --background: #1a1b23;         
+  --secondary-background: #0b0b0f;
+  --foreground: #AFB2B6;         
+  --current-line: #2a3242;       
+  --comment: #4a5a73;            
   
   /* Accent colors - more saturated */
-  --red: #d83f52;               /* Emergency red */
-  --cyan: #6D8BAF;              /* Bright phosphor cyan */
+  --red: #d83f52;               
+  --cyan: #89A1BE;              
   --blue: #264B64;
-  --purple: #3D3B4A;            /* Neon purple */
+  --purple: #3D3B4A;            
 
-  --orange: #e9a874;            /* Burnished copper */
-  --green: #49c5b7;             /* Phosphor terminal green */
-  --pink: #ff6b97;              /* Electric pink */
-  --yellow: #dfb06a;            /* Rich amber terminal */
+  --orange: #e9a874;            
+  --green: #49c5b7;             
+  --pink: #ff6b97;              
+  --yellow: #dfb06a;            
   
   /* UI Elements */
   --bar-color: var(--secondary-background);
   --darker-background: #242331;
   --darker-background-border: #202943;
   --popover-background-color: var(--secondary-background);
-  --items-column-items-background-color: #0d0d11;
+  --items-column-items-background-color: #15161c;
+  --navigation-item-count-color: ;
   --item-cell-selected-background-color: var(--secondary-background);
 
   /* Accent Tints */
@@ -47,7 +48,7 @@
   --sn-stylekit-shadow-color: var(--comment);
   --sn-stylekit-info-color: var(--red);
   --sn-stylekit-info-contrast-color: var(--background);
-  --sn-stylekit-neutral-color: var(--purple);
+  --sn-stylekit-neutral-color: var(--cyan);
   --sn-stylekit-neutral-contrast-color: var(--foreground);
   --sn-stylekit-success-color: var(--green);
   --sn-stylekit-success-contrast-color: var(--background);
